@@ -1,0 +1,136 @@
+/*I know it's kinda lazy if you are using Important but this is only for project purposes*/
+
+
+@media (max-width: 500px){
+    #webtitle{
+        margin-left: 32% !important;
+        font-size: 45px !important;
+    }
+    #webtitle2{
+        font-size: 22px !important;
+        margin-left: 28% !important;
+        top: 6% !important;
+
+    }
+    .navicons{
+        display: none !important;
+    }
+    .noveskenav{
+        margin-left: 35% !important;
+        top: 65%;
+    }
+    #sec2t{
+        font-size: 20px !important;
+        margin-left: 6% !important;
+    }
+    /* Pistoles images */
+
+    .MAKAROVA img{
+        height: auto;
+        width: 200px;
+    }
+    .WILSON img{
+        height: auto;
+        width: 200px;
+    }
+    /* Gun Description */
+    .AKNAME{
+        font-size: 15px !important;
+        top: 85% !important;
+    }
+    .SCAR{
+        font-size: 15px !important;
+        top: 85% !important;
+        margin-left: 4%;
+    }
+    .AR{
+        font-size: 15px !important;
+        top: 102% !important;
+    }
+    .makarov{
+        font-size: 15px !important;
+        top: 130% !important;
+        margin-right: 10% !important;
+    }
+    .wilson-edc{
+        font-size: 15px !important;
+        top: 130% !important;
+        margin-left: 38%;
+    }
+    /* Footer */
+   #footcr{
+    display: none;
+   }
+   .priv-term{
+    font-size: 15px !important;
+    top: 158% !important;
+   }
+   #footerhidalgo{
+    font-size: 12px !important;
+    top: 147% !important;
+   }
+   #visitfooter{
+    display: none;
+   }
+   #footicons{
+    position: absolute;
+    margin-top: 30% !important;
+    font-size: 23px !important;
+   }
+   .sourcee{
+    margin-left: 5%;
+    font-size: 15px !important;
+   }
+   .companylist{
+    font-size: 15px !important;
+   }
+}
+
+@media(max-width: 390px)/* Iphone SE*/{
+    #webtitle{
+        margin-left: 30% !important;
+    }
+     #webtitle2{
+        font-size: 15px !important;
+        margin-top: 2%;
+        margin-left: 33% !important;
+    }
+    .noveskenav{
+        margin-left: 43% !important;
+    }
+    .wilson-edc{
+        margin-top: 28%;
+        left: -25% !important;
+    }
+    #footerhidalgo{
+        margin-top: 20%;
+    }
+    .priv-term{
+        margin-top: 20%;
+    }
+    .companylist{
+        width: auto;
+        margin-left: -10%;
+        margin-top: 28% !important;
+        font-size: 10px !important;
+    }
+    .sourcee{
+        width:auto;
+        margin-left: -5%;
+        margin-top: 28% !important;
+        font-size: 10px !important;
+    }
+    #footicons{
+        width: auto;
+        position: static;
+        margin-left: 50% !important;
+        font-size: 15px !important;
+        top: 140% !important;
+    }
+    #visitfooter{
+        display: none;
+    }
+    .AKNAME{
+        font-size: 12px !important;
+    }
+}

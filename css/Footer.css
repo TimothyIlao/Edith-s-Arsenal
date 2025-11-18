@@ -1,0 +1,119 @@
+/*FOOTER*/
+.isthistheend{
+    background-color: #5C5551;
+    font-size: 50px;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    height: 12rem;
+}
+#footcr{
+    font-size: 18px;
+    position:absolute;
+    color: white;
+    top: 377%;
+    margin-left: 75%;
+    text-shadow: 2px 5px black;
+}
+.sources{
+    position: sticky;
+    color: black;
+    align-items: center;
+}
+#sourcenav{
+    text-decoration: none;
+    color:black
+}
+.sourcee{
+    color:black;
+    margin-top: 3%;
+    left: 80%;
+    position: absolute;
+    font-size: 20px;
+    font-family: "Zalando Sans", sans-serif;
+}
+#sourcenav:hover{
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+    text-shadow: none;
+    transform: scale(1.1);
+}
+#sourcetitle{
+    font-weight: bold;
+}
+.companya{
+    position: sticky;
+    color: black;
+    align-items: center;
+}
+#companynav{
+    text-decoration: none;
+    color:black
+}
+#companynav:hover{
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+    text-shadow: none;
+    transform: scale(1.1);
+}
+#companytitle{
+    font-weight: bold;
+}
+.companylist{
+    color:black;
+    margin-top: 3%;
+    left: 65%;
+    position: absolute;
+    font-size: 20px;
+    font-family: "Zalando Sans", sans-serif;
+}
+#footicons{
+    position: absolute;
+    font-size: 35px;
+    display: flex; 
+    gap: 2rem;
+    margin-top: 2%;
+    margin-left: 30%;
+}
+#visiticon{
+    text-shadow: 2px 4px black;
+    display: flex;
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.986);
+}
+#visiticon:hover{
+    transition: 0.3s;
+    color: black;
+    text-shadow: none;
+    transform: scale(1.2);
+}
+.priv-term{
+    top: 377%;
+    left: 5%;
+    position: absolute;
+    font-size: 20px;
+    color:white;
+    text-shadow: 2px 5px black;
+    text-decoration: none;
+}
+.priv-term:hover{
+    transition: 0.3s;
+    text-shadow: none;
+    transform: scale(1.1);
+}
+#footerhidalgo{
+    position: absolute;
+    font-size: 21px;
+    left: 5%;
+    top: 355%;
+    display:grid;
+}
+#hidalgoreadmore{
+    color: white;
+    text-shadow: 2px 3px black;
+}
+
+#hidalgoreadmore:hover{
+    transition: 1s;
+    color: rgb(160, 0, 0);
+    text-shadow: 2px 3px rgb(0, 0, 0);
+}

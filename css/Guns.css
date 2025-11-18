@@ -1,0 +1,153 @@
+/*   Dito ung mga Categories ng baril  */
+.sec1 {
+    color:rgb(255, 255, 255);
+    font-family: "Zalando Sans", sans-serif;
+    margin-top:10%;
+    margin-left: 50px;
+    z-index:1;
+    animation: movePop 10s ease;
+    animation-timeline: view();
+}
+.sec2{
+    padding: 1rem;
+    flex-wrap: wrap;
+    scroll-behavior: smooth;
+    border-radius: 5%;
+    flex: 1 0 25%;
+    box-shadow: 0 1.5rem 3rem -0.80rem hsla(0, 0%, 0%, 0.25);
+}
+.sec2 img{
+    border-radius: 10%;
+    padding-top: 20px;
+    vertical-align: middle;
+    opacity: 0.6;
+}
+#sec2t{
+    margin-left: 3%;
+    color:white;
+    animation: movePop 10s ease;
+    animation-timeline: view();
+}
+.pistoles{
+    padding: 1rem;
+    flex-wrap: wrap;
+    scroll-behavior: smooth;
+    border-radius: 5%;
+    flex: 1 0 25%;
+    box-shadow: 0 1.5rem 3rem -0.80rem hsla(0, 0%, 0%, 0.25);
+}
+.pistoles img{
+    border-radius: 10%;
+    padding-top: 20px;
+    vertical-align: middle;
+    opacity: 0.6;
+}
+.AK{
+    padding: 1rem;
+    flex-wrap: wrap;
+    scroll-behavior: smooth;
+    border-radius: 5%;
+    flex: 1 0 25%;
+    box-shadow: 0 1.5rem 3rem -0.80rem hsla(0, 0%, 0%, 0.25);
+}
+.AK img{
+    border-radius: 10%;
+    padding-top: 20px;
+    vertical-align: middle;
+    opacity: 0.6;
+}
+
+
+
+
+/* TEXT NG MGA BARIL CATEGORIES */
+.AKNAME {
+opacity: 0.5;
+  text-decoration: none;
+  position: absolute;
+  top: 135%;
+  left: 5%;
+  font-size: 40px;
+  font-weight: bold;
+}
+.SCAR {
+  opacity: 0.5;
+  position: absolute;
+  left: 46%;
+  top: 134%;
+  font-size: 55px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.AR{
+  opacity: 0.5;
+  position: absolute;
+  left: 12%;
+  top: 182%;
+  font-size: 60px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.wilson-edc {
+  text-decoration: none;
+  position: absolute;
+  top: 325%;
+  left: 14.5%;
+  font-size: 40px;
+  font-weight: bold;
+  opacity:0.5;
+}
+.makarov {
+  text-decoration: none;
+  position: absolute;
+  top: 250%;
+  left: 12%;
+  font-size: 40px;
+  font-weight: bold;
+  opacity: 0.5;
+}
+/* AK HOVER*/
+.kalashnikova:hover{
+    transition: 0.5s;
+}
+.AKNAME:hover{
+    opacity: 0.6;
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+/*SCAR HOVER*/
+.scarheavy:hover{
+    transition: 0.5s;
+}
+.SCAR:hover{
+    opacity: 0.6;
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+/*AR HOVER*/
+.AR15:hover{
+    transition: 0.5s;
+}
+.AR:hover{
+    opacity: 0.6;
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+/*WILSON HOVER*/
+.WILSON:hover{
+    transition: 0.5s;
+}
+.wilson-edc:hover{
+    opacity: 0.6;
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+/*MAKAROV HOVER*/
+.MAKAROVA:hover{
+    transition: 0.5s;
+}
+.makarov:hover{
+    opacity: 0.6;
+    transition: 0.6s;
+    transform: scale(1.1);
+}

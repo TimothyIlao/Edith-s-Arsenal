@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+header{
+    background-color: transparent;
+    padding-bottom: 75px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+header:hover{
+    transition: 0.5s;
+    background-color:color-mix(in oklab, rgb(44, 44, 44) 100%, rgba(151, 151, 151, 0.445) 25%);
+    z-index: 10;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#webtitle{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 5px black;
+    font-size: 50px;
+    margin-left: 42.5%;
+    position: fixed;
+    flex: 1 0 25%;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+}
+#webtitle2{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 5px black;
+    font-size: 15px;
+    margin-left: 43.5%;
+    top: 8%;
+    position: fixed;
+    flex: 1 0 25%;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+}
+
+
+
+/*Eto ung slide pictures AFAIK*/
+.container{
+    padding-top: 150px;
+    padding: 0.5rem;
+}
+.noveskeslide-wrapper{
+    position: relative;
+    max-width: 90rem;
+    margin:  auto;
+}
+.noveskeslide{
+    display: flex;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    box-shadow: 0 1.5rem 3rem -0.80rem hsla(0, 0%, 0%, 0.25);
+    scroll-behavior: smooth;
+    border-radius: 1%;
+}
+.noveskeslide img{
+    flex: 1 0 25%;
+    object-fit: cover;
+    width: 100%;
+    height: 410px;
+    scroll-snap-align: start;
+    
+}
+
+/*NAVIGATIONS TO*/
+.navicons{
+    font-size: 25px;
+    margin-top: 2%;
+    margin-right: 20px;
+    margin-left: 85%;
+    display: flex;
+    position: fixed;
+    top:10px;
+    right: 0;
+    gap: 2rem;
+    z-index: 10;
+}
+.navicons a{
+    text-decoration: none;
+    color: white;
+}
+.search-button{
+    background-color: transparent;
+    border-style: hidden;
+    color: white;
+    font-size: 20px;
+}
+.noveskenav{
+    position: absolute;
+    display:flex;
+    margin-left: 46%;
+    column-gap: 1.5rem;
+    bottom: 185px;
+    z-index: 1;
+    
+}
+.noveskenav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.5;
+    display: block;
+}
+.noveskenav a:hover{
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+@keyframes movePop{
+    from{
+        transition: 500ms;
+        opacity: 0;
+        transform: translateY(-20%);
+    }
+    to{
+        transition: 600ms;
+        opacity: 1;
+        transform: translateY(20%);
+    }
+}
