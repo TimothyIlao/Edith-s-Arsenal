@@ -1,7 +1,7 @@
 /*I know it's kinda lazy if you are using Important but this is only for project purposes*/
 
 
-@media (max-width: 500px){
+@media (max-width: 550px){
     #webtitle{
         margin-left: 32% !important;
         font-size: 45px !important;
@@ -9,15 +9,15 @@
     #webtitle2{
         font-size: 22px !important;
         margin-left: 28% !important;
-        top: 6% !important;
+        top: 8% !important;
 
     }
     .navicons{
         display: none !important;
     }
     .noveskenav{
-        margin-left: 35% !important;
-        top: 65%;
+        margin-left: 43% !important;
+        top: 80%;
     }
     #sec2t{
         font-size: 20px !important;
@@ -36,26 +36,26 @@
     /* Gun Description */
     .AKNAME{
         font-size: 15px !important;
-        top: 85% !important;
+        top: 115% !important;
     }
     .SCAR{
         font-size: 15px !important;
-        top: 85% !important;
+        top: 115% !important;
         margin-left: 4%;
     }
     .AR{
         font-size: 15px !important;
-        top: 102% !important;
+        top: 140% !important;
     }
     .makarov{
         font-size: 15px !important;
-        top: 130% !important;
+        top: 175% !important;
         margin-right: 10% !important;
     }
     .wilson-edc{
         font-size: 15px !important;
-        top: 130% !important;
-        margin-left: 38%;
+        top: 175% !important;
+        margin-left: 34%;
     }
     /* Footer */
    #footcr{
@@ -63,18 +63,18 @@
    }
    .priv-term{
     font-size: 15px !important;
-    top: 158% !important;
+    top: 210% !important;
    }
    #footerhidalgo{
     font-size: 12px !important;
-    top: 147% !important;
+    top: 195% !important;
    }
    #visitfooter{
     display: none;
    }
    #footicons{
     position: absolute;
-    margin-top: 30% !important;
+    margin-top: 27% !important;
     font-size: 23px !important;
    }
    .sourcee{
@@ -82,6 +82,7 @@
     font-size: 15px !important;
    }
    .companylist{
+    margin-left: -3%;
     font-size: 15px !important;
    }
 }
